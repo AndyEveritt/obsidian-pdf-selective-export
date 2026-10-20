@@ -1,0 +1,5 @@
+/* Applied through the `cssclasses` frontmatter in "Tricky syntax".
+   If H2s are purple in the PDF, frontmatter survived the filtering. */
+.demo-wide h2 {
+	color: #6c4fd6;
+}

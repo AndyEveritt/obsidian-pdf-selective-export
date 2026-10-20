@@ -1,8 +1,53 @@
-/*
+.pdf-selective-export-caption {
+	color: var(--text-muted);
+	margin-top: 0;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.pdf-selective-export-list {
+	max-height: 50vh;
+	overflow-y: auto;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	padding: var(--size-4-2);
+}
 
-If your plugin does not need CSS, delete this file.
+.pdf-selective-export-row {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+	padding: var(--size-4-1) var(--size-4-2);
+	border-radius: var(--radius-s);
+	cursor: pointer;
+}
 
-*/
+.pdf-selective-export-row:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.pdf-selective-export-depth-1 { padding-inline-start: calc(var(--size-4-2) + 1 * var(--size-4-6)); }
+.pdf-selective-export-depth-2 { padding-inline-start: calc(var(--size-4-2) + 2 * var(--size-4-6)); }
+.pdf-selective-export-depth-3 { padding-inline-start: calc(var(--size-4-2) + 3 * var(--size-4-6)); }
+.pdf-selective-export-depth-4 { padding-inline-start: calc(var(--size-4-2) + 4 * var(--size-4-6)); }
+.pdf-selective-export-depth-5 { padding-inline-start: calc(var(--size-4-2) + 5 * var(--size-4-6)); }
+
+.pdf-selective-export-level {
+	flex-shrink: 0;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+	min-width: 1.75em;
+}
+
+.pdf-selective-export-label {
+	overflow-wrap: anywhere;
+}
+
+.pdf-selective-export-intro .pdf-selective-export-label {
+	font-style: italic;
+	color: var(--text-muted);
+}
+
+.pdf-selective-export-summary {
+	margin-top: var(--size-4-2);
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}

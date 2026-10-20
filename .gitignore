@@ -20,3 +20,10 @@ data.json
 
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store
+
+# Demo vault: build output, workspace state and exported PDFs
+demo-vault/.obsidian/plugins/*/main.js
+demo-vault/.obsidian/plugins/*/manifest.json
+demo-vault/.obsidian/plugins/*/styles.css
+demo-vault/.obsidian/workspace*.json
+demo-vault/**/*.pdf
