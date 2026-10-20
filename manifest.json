@@ -1,7 +1,7 @@
 {
 	"id": "pdf-selective-export",
 	"name": "Selective PDF export",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"minAppVersion": "1.5.7",
 	"description": "Choose which headings to include when exporting a note to PDF, using Obsidian's built-in export.",
 	"author": "Andy Everitt",
